@@ -31,19 +31,20 @@ font-family: 'Josefin Sans', sans-serif;
     
 }
 
-/* .centrale_2{
+.centrale_2{
     height: 300px;
     width: 300px;
     position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    box-shadow:  -20px 20px 60px #c92e2e, 20px -20px 60px #48c910;
+    top:calc(50% - 150px);
+    left: calc(50% - 150px);
    
-} */
+    border-radius: 50%;
+    box-shadow:  -20px 20px 60px #3f7286, 20px -20px 60px #2a9d8f;
+    animation: ruota 2s linear infinite ;
+   
+}
 
-/* @keyframes ruota {
+ @keyframes ruota {
 
     0%{
         transform-origin: center;
@@ -55,7 +56,7 @@ font-family: 'Josefin Sans', sans-serif;
         transform: rotate(360deg);
     }
   
-} */
+} 
 
 button{
     font-size: 1.2rem;
