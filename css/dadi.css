@@ -27,7 +27,12 @@ font-family: 'Josefin Sans', sans-serif;
     background: #e0e0e0;
     box-shadow:  -20px 20px 60px #bebebe,
                 20px -20px 60px #ffffff;
+    z-index: 900;
+    
+   
 }
+
+
 
 button{
     font-size: 1.2rem;
@@ -38,6 +43,12 @@ button{
              15px 15px 30px #ffffff;
 }
 
-.dadiz{
-    width: 200px;
+.imgiocatore::after{
+    content: 'H';
+    
+}
+
+.imgpc::after{
+    content: 'PC';
+    
 }
