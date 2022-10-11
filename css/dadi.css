@@ -29,10 +29,33 @@ font-family: 'Josefin Sans', sans-serif;
                 20px -20px 60px #ffffff;
     z-index: 900;
     
-   
 }
 
+/* .centrale_2{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    box-shadow:  -20px 20px 60px #c92e2e, 20px -20px 60px #48c910;
+   
+} */
 
+/* @keyframes ruota {
+
+    0%{
+        transform-origin: center;
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform-origin: center;
+        transform: rotate(360deg);
+    }
+  
+} */
 
 button{
     font-size: 1.2rem;
