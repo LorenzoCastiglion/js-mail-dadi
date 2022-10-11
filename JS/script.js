@@ -48,7 +48,7 @@ const check = function(){
         answer.textContent = "Sembrerebbe che non ci conosciamo, chi sei?"
     };
 
-    risp.append(answer)
+    risp.append(answer);
 };
 
 // creo un event che al premere sul pulsante di login mi faccia partire la funzione check mail

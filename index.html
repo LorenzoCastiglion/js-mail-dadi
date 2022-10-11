@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="stylesheet" href="./css/style.css">
+
     <title>mail_dadi</title>
 </head>
 <body>
 
-    <input type="email" name="usermail" id="usermail" placeholder="mail address">
-    <button>login</button>
-
-    <div id="risposta"></div>
+    <div class="centrale container d-flex m-auto justify-content-center flex-wrap p-5">
+        <input class="col-12 my-4" type="email" name="usermail" id="usermail" placeholder="mail address">
+        <button class="col-12 w-50 my-4">login</button>
+        <div class="col-12 text-center fs-3" id="risposta"></div>
+    </div>
     
-    <a href="./dadi.html">Gioca a Dadi</a>
+    <div class="container dadi text-center py-1 ">
+        <a class="text-decoration-none text-black fs-5 " href="./dadi.html"><i class="fa-solid fa-dice"></i> Gioca a Dadi</a>
+    </div>
 
     <script src="./JS/script.js"></script>
 </body>
