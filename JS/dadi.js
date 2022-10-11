@@ -44,6 +44,12 @@ let play = function () {
         result.textContent = 'Draw! Both players rolled:' + giocatore;
     //     result.innerHTML = 'Draw! Both players rolled:' + giocatore;
     };
+
+                document.querySelector(".img1").setAttribute("src",
+                "../img/dice" + giocatore + ".png");
+
+                document.querySelector(".img2").setAttribute("src",
+                "../img/dice" + computer + ".png");            
 }
 
 
